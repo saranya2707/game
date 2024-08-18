@@ -1,0 +1,374 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Spartan", sans-serif;
+  }
+
+
+  /*Section 1*/
+  #header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+    padding: 20px 80px;
+    background: red;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.06);
+    z-index: 999;
+    position:static;
+    top: 0;
+    left: 0 ;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+
+#navbar li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    transition: 0.3s ease;
+}
+
+#navbar li a:hover,
+#navbar li a.active{
+    color: white;
+
+}
+
+#navbar li a.active::after,
+#navbar li a:hover::after{
+    content:"";
+    width: 30%;
+    height: 2px;
+    background: white;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+
+.logo{
+    width: 10%;
+    height: 10%;
+}
+
+/*Section 2*/
+#video{
+    background-color: black;
+}
+
+/*Section 3*/
+
+#about img{
+    width: 200%;
+    height: auto;
+    
+}
+
+#about{
+    display: flex;
+    align-items: center;
+    background-color: black;
+}
+
+#about div{
+    padding-left: 40px;
+    color: white;
+}
+
+#about div h2{
+    padding-left: 350px;
+    font-weight: 200;
+    font-size: 50px;
+}
+
+.us{
+    padding: 40px 80px;
+}
+
+#community{
+    background-image: url("images/a.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    display: flex; 
+    flex-direction: column;
+  }
+  
+  #community h2{
+    color : black;
+    text-align: center;
+    font-size: 70px;
+    padding-top: 10%;
+  }
+
+  #community .button {
+        background-color:black;
+        margin-left: 41%;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none; 
+        font-size: 16px;
+        width: 250px;
+        border-radius: 5px;
+}
+
+#community .button:hover{
+    background-color: aqua;
+    color: black;
+}
+
+#contact{
+    display: flex;
+    align-items: center;
+    background-color: black ;
+    height: 310px;
+    justify-content: space-between ;
+
+}
+
+#contact a{
+    margin-left: 50px;
+    width: 100%;
+    height: 80%;
+    padding-top: 90px;
+    
+}
+
+
+
+#logos{
+    
+    width: 20%;
+    height: 50%;
+    margin-left: 100px;
+}
+
+#apple{
+    margin-left: 100px;
+    width: 50%;
+    height: 60%;
+
+}
+
+#google{
+    margin-left: 210px;
+    width: 50%;
+    height: 60%;
+}
+
+#follow{
+    background-color: red;font-size: 50px;
+    text-align: center;padding-top: 40px;
+
+}
+
+#social{
+    background-color: red;height: 250px; 
+    text-align: center;font-size: 50px;
+    
+}
+
+.icon{
+    padding-top: 80px;
+}
+
+
+/*Purchase*/
+
+#purchase{
+background-color: black;
+height: 100%;
+width: 100%;
+color: azure;
+text-align: center;
+font-size: 50px;
+font-style: italic;
+}
+
+
+
+#img{
+   display: flex; width: 95em;
+   height: 25em;
+   background-color:white;
+}
+
+.image1,.image2,.image3{
+    display: flex; width: 33em;
+   height: 25em;
+   justify-content: space-around;
+   
+}
+
+/*parallax*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#paras .parallax-1 {
+    width: 100%;
+    height: 600px;
+    background: url('https://wallpapercave.com/wp/wp9693112.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+/*
+#paras .parallax-1 h2 {
+    margin: auto;
+    position: relative;
+    left: 500x;
+    top: 300px;
+    width: 250px;
+    height: 37px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-family: Verdana;
+}
+*/
+
+
+#paras .parallax-2 {
+    width: 100%;
+    height: 600px;
+    background: url('https://wallpapers.com/images/hd/angry-birds-background-cbd9d9al7q3yewf2.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+
+/*
+#paras .parallax-2 h2 {
+    margin: auto;
+    position: relative;
+    left: 500x;
+    top: 300px;
+    width: 250px;
+    height: 37px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-family: Verdana;
+}
+*/
+#paras .para-1, .para-2 {
+    padding: 50px;
+    background-color: black;
+    color: white ;
+    font-size: 17px;
+    text-align: center;
+}
+
+
+
+/*image*/
+
+#image{ 
+    background: url('https://lh6.googleusercontent.com/proxy/6spilRchTkjSJsqjw6xoTRXd9lcPyFtjErR4mnx0L5A0962sXRTkEOSyWCW5cUSb2IhBdok8U2cO-ISC4cLF6A9NRDsj8cu_rmIY9l34gAcjWzAUMfHAbCAvlfz4itd-UlBRFgn-');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    display: flex; 
+    flex-direction: column;
+}
+
+/*
+
+.dg{
+    margin-left: 25% ;  
+    margin-top: 100px ;
+}
+
+.level{
+    margin-left: 25% ; margin-top: 10px ;
+}
+
+.pur{
+    margin-left: 25% ; margin-top: 10px ;
+    border-radius: 2px;
+    color: black;
+    background-color: aqua;
+}
+
+.pur:hover{
+    background-color: greenyellow;
+    color: black;
+}
+
+
+*/
+
+.pur{
+    margin-left: 48% ; margin-top: 30px ;
+    border-radius: 2px;
+    color: black;
+    background-color: aqua;
+}
+
+.pur:hover{
+    background-color: green;
+    color: black;
+}
+
+
+.dg{
+    margin-left: 40% ;  
+    margin-top: 100px ;
+}
+
+.level{
+    margin-left: 40% ; margin-top: 20px ;
+}
+
+
+
+
+select {
+    /* Reset */
+    appearance: none;
+    border: 0;
+    outline: 0;
+    font: inherit;
+    /* Personalize */
+    width: 20rem;
+    padding: 1rem 4rem 1rem 1rem;
+    background: var(--arrow-icon) no-repeat right 0.8em center / 1.4em,
+      linear-gradient(to left, var(--arrow-bg) 3em, var(--select-bg) 3em);
+    color: black;
+    border-radius: 0.25em;
+    box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    /* Remove IE arrow */
+    &::-ms-expand {
+      display: none;
+    }
+    /* Remove focus outline */
+    &:focus {
+      outline: none;
+    }
+    /* <option> colors */
+    option {
+      color: inherit;
+      background-color: var(--option-bg);
+    }
+  }
